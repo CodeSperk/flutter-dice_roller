@@ -7,13 +7,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:roll_the_dice/dice_roller.dart';
+import 'package:roll_the_dice/dice_container.dart';
 
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const DiceRoller());
+    await tester.pumpWidget(const DiceContainer());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
