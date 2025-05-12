@@ -1,6 +1,6 @@
 {
-    "name": "dice_roller",
-    "short_name": "dice_roller",
+    "name": "roll_the_dice",
+    "short_name": "roll_the_dice",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
